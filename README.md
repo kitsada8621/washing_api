@@ -2,7 +2,9 @@
 #### ฐานข้อมูล
 - สร้างฐานข้อมูล Mysql ชื่อว่า  `washing_db`
 #### โปรเจ็ค
-- ไปยังไฟล์ `.env` จากนนั้นทำการตรวจสอบความถูกต้องของ ฐานข้อมูล `DB_NAME, DB_USERNAME, DB_PASSWORD, DB_HOSTNAME, DB_PORT`
+- copy project ไปยังเครื่อง `git clone https://github.com/kitsada8621/washing_api.git`
+- ทำการ run คำสั่ง `npm install`
+- จากนั้นไปยังไฟล์ `.env` ทำการตรวจสอบความถูกต้องของ config ฐานข้อมูล `DB_NAME, DB_USERNAME, DB_PASSWORD, DB_HOSTNAME, DB_PORT`
 - กำหนด `LINE_TOKEN` 
 - ทำการกำหนดเวลาซักผ้า  `WASHING_EXPIRE`
 #### เริ่มต้นการใช้งาน
